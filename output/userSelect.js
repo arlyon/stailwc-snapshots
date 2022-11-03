@@ -9,16 +9,16 @@ tw`select-auto`
 
 // https://tailwindcss.com/docs/user-select
 ({
-  userSelect: 'none',
+  userSelect: "none",
 });
 ({
-  userSelect: 'text',
+  userSelect: "text",
 });
 ({
-  userSelect: 'all',
+  userSelect: "all",
 });
 ({
-  userSelect: 'auto',
+  userSelect: "auto",
 })
 
 

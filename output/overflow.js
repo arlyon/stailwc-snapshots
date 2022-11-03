@@ -20,49 +20,49 @@ tw`overflow-y-scroll`
 
 // https://tailwindcss.com/docs/overflow
 ({
-  overflow: 'auto',
+  overflow: "auto",
 });
 ({
-  overflow: 'hidden',
+  overflow: "hidden",
 });
 ({
-  overflow: 'clip',
+  overflow: "clip",
 });
 ({
-  overflowX: 'clip',
+  overflowX: "clip",
 });
 ({
-  overflowY: 'clip',
+  overflowY: "clip",
 });
 ({
-  overflow: 'visible',
+  overflow: "visible",
 });
 ({
-  overflow: 'scroll',
+  overflow: "scroll",
 });
 ({
-  overflowX: 'auto',
+  overflowX: "auto",
 });
 ({
-  overflowY: 'auto',
+  overflowY: "auto",
 });
 ({
-  overflowX: 'hidden',
+  overflowX: "hidden",
 });
 ({
-  overflowY: 'hidden',
+  overflowY: "hidden",
 });
 ({
-  overflowX: 'visible',
+  overflowX: "visible",
 });
 ({
-  overflowY: 'visible',
+  overflowY: "visible",
 });
 ({
-  overflowX: 'scroll',
+  overflowX: "scroll",
 });
 ({
-  overflowY: 'scroll',
+  overflowY: "scroll",
 })
 
 

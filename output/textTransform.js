@@ -9,16 +9,16 @@ tw`normal-case`
 
 // https://tailwindcss.com/docs/text-transform
 ({
-  textTransform: 'uppercase',
+  textTransform: "uppercase",
 });
 ({
-  textTransform: 'lowercase',
+  textTransform: "lowercase",
 });
 ({
-  textTransform: 'capitalize',
+  textTransform: "capitalize",
 });
 ({
-  textTransform: 'none',
+  textTransform: "none",
 })
 
 

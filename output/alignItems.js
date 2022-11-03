@@ -10,19 +10,19 @@ tw`items-stretch`
 
 // https://tailwindcss.com/docs/align-items
 ({
-  alignItems: 'flex-start',
+  alignItems: "flex-start",
 });
 ({
-  alignItems: 'flex-end',
+  alignItems: "flex-end",
 });
 ({
-  alignItems: 'center',
+  alignItems: "center",
 });
 ({
-  alignItems: 'baseline',
+  alignItems: "baseline",
 });
 ({
-  alignItems: 'stretch',
+  alignItems: "stretch",
 })
 
 

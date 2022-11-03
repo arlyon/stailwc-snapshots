@@ -8,13 +8,13 @@ tw`flex-nowrap`
 
 // https://tailwindcss.com/docs/flex-wrap
 ({
-  flexWrap: 'wrap',
+  flexWrap: "wrap",
 });
 ({
-  flexWrap: 'wrap-reverse',
+  flexWrap: "wrap-reverse",
 });
 ({
-  flexWrap: 'nowrap',
+  flexWrap: "nowrap",
 })
 
 

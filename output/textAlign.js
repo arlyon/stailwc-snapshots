@@ -11,22 +11,22 @@ tw`text-end`
 
 // https://tailwindcss.com/docs/text-align
 ({
-  textAlign: 'left',
+  textAlign: "left",
 });
 ({
-  textAlign: 'center',
+  textAlign: "center",
 });
 ({
-  textAlign: 'right',
+  textAlign: "right",
 });
 ({
-  textAlign: 'justify',
+  textAlign: "justify",
 });
 ({
-  textAlign: 'start',
+  textAlign: "start",
 });
 ({
-  textAlign: 'end',
+  textAlign: "end",
 })
 
 

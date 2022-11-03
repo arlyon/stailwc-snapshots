@@ -1,6 +1,6 @@
 
 
-import tw from './macro' // twinImport
+import tw from "./macro" // twinImport
 
 tw`border-t`
 tw`border-r`
@@ -34,71 +34,71 @@ tw`border-l-4`
 
 // twinImport
 ({
-  borderTopWidth: '1px',
+  borderTopWidth: "1px",
 });
 ({
-  borderRightWidth: '1px',
+  borderRightWidth: "1px",
 });
 ({
-  borderBottomWidth: '1px',
+  borderBottomWidth: "1px",
 });
 ({
-  borderLeftWidth: '1px',
+  borderLeftWidth: "1px",
 });
 ({
-  borderTopColor: 'transparent',
+  borderTopColor: "transparent",
 });
 ({
-  borderTopColor: 'currentColor',
+  borderTopColor: "currentColor",
 });
 ({
-  '--tw-border-opacity': '1',
-  borderTopColor: 'rgb(249 250 251 / var(--tw-border-opacity))',
+  "--tw-border-opacity": "1",
+  borderTopColor: "rgb(249 250 251 / var(--tw-border-opacity))",
 });
 ({
-  borderRightColor: 'transparent',
+  borderRightColor: "transparent",
 });
 ({
-  borderRightColor: 'currentColor',
+  borderRightColor: "currentColor",
 });
 ({
-  '--tw-border-opacity': '1',
-  borderRightColor: 'rgb(249 250 251 / var(--tw-border-opacity))',
+  "--tw-border-opacity": "1",
+  borderRightColor: "rgb(249 250 251 / var(--tw-border-opacity))",
 });
 ({
-  borderBottomColor: 'transparent',
+  borderBottomColor: "transparent",
 });
 ({
-  borderBottomColor: 'currentColor',
+  borderBottomColor: "currentColor",
 });
 ({
-  '--tw-border-opacity': '1',
-  borderBottomColor: 'rgb(249 250 251 / var(--tw-border-opacity))',
+  "--tw-border-opacity": "1",
+  borderBottomColor: "rgb(249 250 251 / var(--tw-border-opacity))",
 });
 ({
-  borderLeftColor: 'transparent',
+  borderLeftColor: "transparent",
 });
 ({
-  borderLeftColor: 'currentColor',
+  borderLeftColor: "currentColor",
 });
 ({
-  '--tw-border-opacity': '1',
-  borderLeftColor: 'rgb(249 250 251 / var(--tw-border-opacity))',
+  "--tw-border-opacity": "1",
+  borderLeftColor: "rgb(249 250 251 / var(--tw-border-opacity))",
 });
 ({
-  borderLeftColor: 'rgb(249 250 251 / 0.2)',
+  borderLeftColor: "rgb(249 250 251 / 0.2)",
 });
 ({
-  borderTopWidth: '4px',
+  borderTopWidth: "4px",
 });
 ({
-  borderRightWidth: '4px',
+  borderRightWidth: "4px",
 });
 ({
-  borderBottomWidth: '4px',
+  borderBottomWidth: "4px",
 });
 ({
-  borderLeftWidth: '4px',
+  borderLeftWidth: "4px",
 })
 
 

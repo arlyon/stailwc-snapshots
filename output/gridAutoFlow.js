@@ -9,16 +9,16 @@ tw`grid-flow-col-dense`
 
 // https://tailwindcss.com/docs/grid-auto-flow
 ({
-  gridAutoFlow: 'row',
+  gridAutoFlow: "row",
 });
 ({
-  gridAutoFlow: 'column',
+  gridAutoFlow: "column",
 });
 ({
-  gridAutoFlow: 'row dense',
+  gridAutoFlow: "row dense",
 });
 ({
-  gridAutoFlow: 'column dense',
+  gridAutoFlow: "column dense",
 })
 
 

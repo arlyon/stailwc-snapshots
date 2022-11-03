@@ -39,178 +39,178 @@ tw`first:(block bg-[black]/[.20])`
       ↓ ↓ ↓ ↓ ↓ ↓
 
 const basic = {
-  '.group:hover &': {
-    display: 'flex',
-    margin: '2.5rem',
+  ".group:hover &": {
+    display: "flex",
+    margin: "2.5rem",
   },
 }
 const subMediaQuery = {
-  '@media (min-width: 768px)': {
-    ':focus-within': {
-      display: 'flex',
+  "@media (min-width: 768px)": {
+    ":focus-within": {
+      display: "flex",
     },
   },
-  ':focus-within': {
-    marginTop: '1.25rem',
+  ":focus-within": {
+    marginTop: "1.25rem",
   },
 }
 const multipleClasses = {
-  ':hover': {
-    '--tw-bg-opacity': '1',
-    backgroundColor: 'rgb(0 0 0 / var(--tw-bg-opacity))',
-    '--tw-text-opacity': '1',
-    color: 'rgb(255 255 255 / var(--tw-text-opacity))',
-    textDecorationLine: 'underline',
+  ":hover": {
+    "--tw-bg-opacity": "1",
+    backgroundColor: "rgb(0 0 0 / var(--tw-bg-opacity))",
+    "--tw-text-opacity": "1",
+    color: "rgb(255 255 255 / var(--tw-text-opacity))",
+    textDecorationLine: "underline",
   },
 }
 const pseudoElement = {
-  ':before': {
-    content: '""',
-    width: '2.5rem',
-    height: '2.5rem',
-    display: 'block',
-    '--tw-bg-opacity': '1',
-    backgroundColor: 'rgb(0 0 0 / var(--tw-bg-opacity))',
+  ":before": {
+    content: "''",
+    width: "2.5rem",
+    height: "2.5rem",
+    display: "block",
+    "--tw-bg-opacity": "1",
+    backgroundColor: "rgb(0 0 0 / var(--tw-bg-opacity))",
   },
 }
 const pseudoElementNoContent = {
-  ':before': {
-    content: '""',
-    width: '2.5rem',
-    height: '2.5rem',
-    display: 'block',
-    '--tw-bg-opacity': '1',
-    backgroundColor: 'rgb(0 0 0 / var(--tw-bg-opacity))',
+  ":before": {
+    content: "''",
+    width: "2.5rem",
+    height: "2.5rem",
+    display: "block",
+    "--tw-bg-opacity": "1",
+    backgroundColor: "rgb(0 0 0 / var(--tw-bg-opacity))",
   },
 }
 const pseudoElementsNoContent = {
-  ':before': {
-    content: '""',
-    width: '2.5rem',
-    height: '2.5rem',
+  ":before": {
+    content: "''",
+    width: "2.5rem",
+    height: "2.5rem",
   },
-  ':after': {
-    content: '""',
-    width: '2.5rem',
-    height: '2.5rem',
+  ":after": {
+    content: "''",
+    width: "2.5rem",
+    height: "2.5rem",
   },
 }
 const mediaHover = {
-  '@media (min-width: 640px)': {
-    ':hover': {
-      '--tw-bg-opacity': '1',
-      backgroundColor: 'rgb(0 0 0 / var(--tw-bg-opacity))',
-      '--tw-text-opacity': '1',
-      color: 'rgb(255 255 255 / var(--tw-text-opacity))',
+  "@media (min-width: 640px)": {
+    ":hover": {
+      "--tw-bg-opacity": "1",
+      backgroundColor: "rgb(0 0 0 / var(--tw-bg-opacity))",
+      "--tw-text-opacity": "1",
+      color: "rgb(255 255 255 / var(--tw-text-opacity))",
     },
   },
 }
 const sloppySpacing = {
-  ':last-child': {
-    display: 'flex',
-    marginTop: '1.25rem',
+  ":last-child": {
+    display: "flex",
+    marginTop: "1.25rem",
   },
 }
 const multipleGroups = {
-  ':focus': {
-    width: '2.5rem',
-    height: '2.5rem',
-    display: 'block',
-    '--tw-bg-opacity': '1',
-    backgroundColor: 'rgb(0 0 0 / var(--tw-bg-opacity))',
+  ":focus": {
+    width: "2.5rem",
+    height: "2.5rem",
+    display: "block",
+    "--tw-bg-opacity": "1",
+    backgroundColor: "rgb(0 0 0 / var(--tw-bg-opacity))",
   },
-  '@media (min-width: 768px)': {
-    ':focus-within': {
-      display: 'flex',
+  "@media (min-width: 768px)": {
+    ":focus-within": {
+      display: "flex",
     },
   },
-  ':focus-within': {
-    marginTop: '1.25rem',
+  ":focus-within": {
+    marginTop: "1.25rem",
   },
 }
 const nestedGroups = {
-  '@media (min-width: 768px)': {
-    width: '2.5rem',
-    ':hover, :focus': {
-      height: '2.5rem',
-      display: 'block',
-      '--tw-bg-opacity': '1',
-      backgroundColor: 'rgb(0 0 0 / var(--tw-bg-opacity))',
+  "@media (min-width: 768px)": {
+    width: "2.5rem",
+    ":hover, :focus": {
+      height: "2.5rem",
+      display: "block",
+      "--tw-bg-opacity": "1",
+      backgroundColor: "rgb(0 0 0 / var(--tw-bg-opacity))",
     },
   },
 }
 ({
-  display: 'block',
-  width: '2.5rem',
+  display: "block",
+  width: "2.5rem",
 });
 ({
-  display: 'block',
-  width: '2.5rem',
+  display: "block",
+  width: "2.5rem",
 });
 ({
-  ':hover': {
-    display: 'block',
-    width: '2.5rem',
+  ":hover": {
+    display: "block",
+    width: "2.5rem",
   },
 });
 ({
-  '@media (min-width: 768px)': {
-    ':hover': {
-      display: 'block',
-      width: '2.5rem',
+  "@media (min-width: 768px)": {
+    ":hover": {
+      display: "block",
+      width: "2.5rem",
     },
   },
 });
 ({
-  '@media (min-width: 768px)': {
-    ':hover': {
-      display: 'block',
-      width: '2.5rem',
+  "@media (min-width: 768px)": {
+    ":hover": {
+      display: "block",
+      width: "2.5rem",
     },
   },
 });
 ({
-  '@media (min-width: 768px)': {
-    ':hover': {
-      display: 'block',
-      height: '2.5rem',
-      width: '2.5rem',
+  "@media (min-width: 768px)": {
+    ":hover": {
+      display: "block",
+      height: "2.5rem",
+      width: "2.5rem",
     },
   },
 }) // Important
 
 ({
-  display: 'block !important',
-  width: '2.5rem !important',
+  display: "block !important",
+  width: "2.5rem !important",
 });
 ({
-  ':hover': {
-    display: 'block !important',
-    width: '2.5rem !important',
+  ":hover": {
+    display: "block !important",
+    width: "2.5rem !important",
   },
 });
 ({
-  '@media (min-width: 768px)': {
-    ':hover': {
-      display: 'block !important',
-      width: '2.5rem',
+  "@media (min-width: 768px)": {
+    ":hover": {
+      display: "block !important",
+      width: "2.5rem",
     },
   },
 });
 ({
-  '@media (min-width: 768px)': {
-    ':hover': {
-      display: 'block',
-      height: '2.5rem !important',
-      width: '2.5rem',
+  "@media (min-width: 768px)": {
+    ":hover": {
+      display: "block",
+      height: "2.5rem !important",
+      width: "2.5rem",
     },
   },
 });
 ({
-  '@media (min-width: 768px)': {
-    ':hover': {
-      display: 'block !important',
-      width: '2.5rem !important',
+  "@media (min-width: 768px)": {
+    ":hover": {
+      display: "block !important",
+      width: "2.5rem !important",
     },
   },
 }) // Ignored
@@ -221,31 +221,31 @@ const nestedGroups = {
 ({}) // Slash opacity
 
 ({
-  ':first-child': {
-    backgroundColor: 'rgb(0 0 0 / 0.2)',
-    display: 'block',
+  ":first-child": {
+    backgroundColor: "rgb(0 0 0 / 0.2)",
+    display: "block",
   },
 });
 ({
-  ':first-child': {
-    backgroundColor: 'rgb(0 0 0 / .20)',
-    display: 'block',
+  ":first-child": {
+    backgroundColor: "rgb(0 0 0 / .20)",
+    display: "block",
   },
 });
 ({
-  ':first-child': {
-    backgroundColor: 'rgb(0 0 0 / .20)',
-    display: 'inline',
-    ':last-child': {
-      backgroundColor: 'rgb(0 0 0 / .20)',
-      display: 'block',
+  ":first-child": {
+    backgroundColor: "rgb(0 0 0 / .20)",
+    display: "inline",
+    ":last-child": {
+      backgroundColor: "rgb(0 0 0 / .20)",
+      display: "block",
     },
   },
 });
 ({
-  ':first-child': {
-    display: 'block',
-    backgroundColor: 'rgb(0 0 0 / .20)',
+  ":first-child": {
+    display: "block",
+    backgroundColor: "rgb(0 0 0 / .20)",
   },
 })
 

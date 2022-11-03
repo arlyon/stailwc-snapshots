@@ -11,22 +11,22 @@ tw`justify-evenly`
 
 // https://tailwindcss.com/docs/justify-content
 ({
-  justifyContent: 'flex-start',
+  justifyContent: "flex-start",
 });
 ({
-  justifyContent: 'flex-end',
+  justifyContent: "flex-end",
 });
 ({
-  justifyContent: 'center',
+  justifyContent: "center",
 });
 ({
-  justifyContent: 'space-between',
+  justifyContent: "space-between",
 });
 ({
-  justifyContent: 'space-around',
+  justifyContent: "space-around",
 });
 ({
-  justifyContent: 'space-evenly',
+  justifyContent: "space-evenly",
 })
 
 

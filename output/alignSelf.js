@@ -11,22 +11,22 @@ tw`self-baseline`
 
 // https://tailwindcss.com/docs/align-self
 ({
-  alignSelf: 'auto',
+  alignSelf: "auto",
 });
 ({
-  alignSelf: 'flex-start',
+  alignSelf: "flex-start",
 });
 ({
-  alignSelf: 'flex-end',
+  alignSelf: "flex-end",
 });
 ({
-  alignSelf: 'center',
+  alignSelf: "center",
 });
 ({
-  alignSelf: 'stretch',
+  alignSelf: "stretch",
 });
 ({
-  alignSelf: 'baseline',
+  alignSelf: "baseline",
 })
 
 

@@ -11,22 +11,22 @@ tw`content-evenly`
 
 // https://tailwindcss.com/docs/align-content
 ({
-  alignContent: 'center',
+  alignContent: "center",
 });
 ({
-  alignContent: 'flex-start',
+  alignContent: "flex-start",
 });
 ({
-  alignContent: 'flex-end',
+  alignContent: "flex-end",
 });
 ({
-  alignContent: 'space-between',
+  alignContent: "space-between",
 });
 ({
-  alignContent: 'space-around',
+  alignContent: "space-around",
 });
 ({
-  alignContent: 'space-evenly',
+  alignContent: "space-evenly",
 })
 
 

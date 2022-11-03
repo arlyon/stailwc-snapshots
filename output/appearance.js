@@ -6,7 +6,7 @@ tw`appearance-none`
 
 // https://tailwindcss.com/docs/appearance
 ({
-  appearance: 'none',
+  appearance: "none",
 })
 
 

@@ -9,16 +9,16 @@ tw`flex-col-reverse`
 
 // https://tailwindcss.com/docs/flex-direction
 ({
-  flexDirection: 'row',
+  flexDirection: "row",
 });
 ({
-  flexDirection: 'row-reverse',
+  flexDirection: "row-reverse",
 });
 ({
-  flexDirection: 'column',
+  flexDirection: "column",
 });
 ({
-  flexDirection: 'column-reverse',
+  flexDirection: "column-reverse",
 })
 
 

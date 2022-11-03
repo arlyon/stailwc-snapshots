@@ -1,7 +1,3 @@
-
-
-import tw from "./macro"
-
 // Pseudo element variants
 tw`first-letter:block`
 tw`first-line:block`

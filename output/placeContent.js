@@ -12,25 +12,25 @@ tw`place-content-stretch`
 
 // https://tailwindcss.com/docs/place-content
 ({
-  placeContent: 'center',
+  placeContent: "center",
 });
 ({
-  placeContent: 'start',
+  placeContent: "start",
 });
 ({
-  placeContent: 'end',
+  placeContent: "end",
 });
 ({
-  placeContent: 'space-between',
+  placeContent: "space-between",
 });
 ({
-  placeContent: 'space-around',
+  placeContent: "space-around",
 });
 ({
-  placeContent: 'space-evenly',
+  placeContent: "space-evenly",
 });
 ({
-  placeContent: 'stretch',
+  placeContent: "stretch",
 })
 
 

@@ -7,10 +7,10 @@ tw`pointer-events-auto`
 
 // https://tailwindcss.com/docs/pointer-events
 ({
-  pointerEvents: 'none',
+  pointerEvents: "none",
 });
 ({
-  pointerEvents: 'auto',
+  pointerEvents: "auto",
 })
 
 

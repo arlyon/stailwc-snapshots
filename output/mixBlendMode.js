@@ -21,52 +21,52 @@ tw`mix-blend-luminosity`
 
 // https://tailwindcss.com/docs/mix-blend-mode
 ({
-  mixBlendMode: 'normal',
+  mixBlendMode: "normal",
 });
 ({
-  mixBlendMode: 'multiply',
+  mixBlendMode: "multiply",
 });
 ({
-  mixBlendMode: 'screen',
+  mixBlendMode: "screen",
 });
 ({
-  mixBlendMode: 'overlay',
+  mixBlendMode: "overlay",
 });
 ({
-  mixBlendMode: 'darken',
+  mixBlendMode: "darken",
 });
 ({
-  mixBlendMode: 'lighten',
+  mixBlendMode: "lighten",
 });
 ({
-  mixBlendMode: 'color-dodge',
+  mixBlendMode: "color-dodge",
 });
 ({
-  mixBlendMode: 'color-burn',
+  mixBlendMode: "color-burn",
 });
 ({
-  mixBlendMode: 'hard-light',
+  mixBlendMode: "hard-light",
 });
 ({
-  mixBlendMode: 'soft-light',
+  mixBlendMode: "soft-light",
 });
 ({
-  mixBlendMode: 'difference',
+  mixBlendMode: "difference",
 });
 ({
-  mixBlendMode: 'exclusion',
+  mixBlendMode: "exclusion",
 });
 ({
-  mixBlendMode: 'hue',
+  mixBlendMode: "hue",
 });
 ({
-  mixBlendMode: 'saturation',
+  mixBlendMode: "saturation",
 });
 ({
-  mixBlendMode: 'color',
+  mixBlendMode: "color",
 });
 ({
-  mixBlendMode: 'luminosity',
+  mixBlendMode: "luminosity",
 })
 
 

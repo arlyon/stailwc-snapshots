@@ -7,10 +7,10 @@ tw`table-fixed`
 
 // https://tailwindcss.com/docs/table-layout
 ({
-  tableLayout: 'auto',
+  tableLayout: "auto",
 });
 ({
-  tableLayout: 'fixed',
+  tableLayout: "fixed",
 })
 
 
