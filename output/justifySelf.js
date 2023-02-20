@@ -10,19 +10,19 @@ tw`justify-self-stretch`
 
 // https://tailwindcss.com/docs/justify-self
 ({
-  justifySelf: 'auto',
+  justifySelf: "auto",
 });
 ({
-  justifySelf: 'start',
+  justifySelf: "start",
 });
 ({
-  justifySelf: 'end',
+  justifySelf: "end",
 });
 ({
-  justifySelf: 'center',
+  justifySelf: "center",
 });
 ({
-  justifySelf: 'stretch',
+  justifySelf: "stretch",
 })
 
 

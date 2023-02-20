@@ -1,7 +1,4 @@
-import tw, { theme } from './macro'
-
 // https://tailwindcss.com/docs/flex
-theme`flex`
 
 tw`flex-1`
 tw`flex-auto`

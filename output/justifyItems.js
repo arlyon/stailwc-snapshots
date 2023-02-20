@@ -9,16 +9,16 @@ tw`justify-items-stretch`
 
 // https://tailwindcss.com/docs/justify-items
 ({
-  justifyItems: 'start',
+  justifyItems: "start",
 });
 ({
-  justifyItems: 'end',
+  justifyItems: "end",
 });
 ({
-  justifyItems: 'center',
+  justifyItems: "center",
 });
 ({
-  justifyItems: 'stretch',
+  justifyItems: "stretch",
 })
 
 

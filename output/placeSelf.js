@@ -10,19 +10,19 @@ tw`place-self-stretch`
 
 // https://tailwindcss.com/docs/place-self
 ({
-  placeSelf: 'auto',
+  placeSelf: "auto",
 });
 ({
-  placeSelf: 'start',
+  placeSelf: "start",
 });
 ({
-  placeSelf: 'end',
+  placeSelf: "end",
 });
 ({
-  placeSelf: 'center',
+  placeSelf: "center",
 });
 ({
-  placeSelf: 'stretch',
+  placeSelf: "stretch",
 })
 
 

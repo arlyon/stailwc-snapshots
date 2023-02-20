@@ -1,9 +1,4 @@
-
-
-import tw, { theme } from './macro'
-
 // https://tailwindcss.com/docs/grid-column
-theme`gridColumn`
 
 tw`col-auto`
 tw`col-span-1`
@@ -57,155 +52,139 @@ tw`col-start-[7]`
 
 // https://tailwindcss.com/docs/grid-column
 ({
-  auto: 'auto',
-  'span-1': 'span 1 / span 1',
-  'span-2': 'span 2 / span 2',
-  'span-3': 'span 3 / span 3',
-  'span-4': 'span 4 / span 4',
-  'span-5': 'span 5 / span 5',
-  'span-6': 'span 6 / span 6',
-  'span-7': 'span 7 / span 7',
-  'span-8': 'span 8 / span 8',
-  'span-9': 'span 9 / span 9',
-  'span-10': 'span 10 / span 10',
-  'span-11': 'span 11 / span 11',
-  'span-12': 'span 12 / span 12',
-  'span-full': '1 / -1',
+  gridColumn: "auto",
 });
 ({
-  gridColumn: 'auto',
+  gridColumn: "span 1 / span 1",
 });
 ({
-  gridColumn: 'span 1 / span 1',
+  gridColumn: "span 2 / span 2",
 });
 ({
-  gridColumn: 'span 2 / span 2',
+  gridColumn: "span 3 / span 3",
 });
 ({
-  gridColumn: 'span 3 / span 3',
+  gridColumn: "span 4 / span 4",
 });
 ({
-  gridColumn: 'span 4 / span 4',
+  gridColumn: "span 5 / span 5",
 });
 ({
-  gridColumn: 'span 5 / span 5',
+  gridColumn: "span 6 / span 6",
 });
 ({
-  gridColumn: 'span 6 / span 6',
+  gridColumn: "span 7 / span 7",
 });
 ({
-  gridColumn: 'span 7 / span 7',
+  gridColumn: "span 8 / span 8",
 });
 ({
-  gridColumn: 'span 8 / span 8',
+  gridColumn: "span 9 / span 9",
 });
 ({
-  gridColumn: 'span 9 / span 9',
+  gridColumn: "span 10 / span 10",
 });
 ({
-  gridColumn: 'span 10 / span 10',
+  gridColumn: "span 11 / span 11",
 });
 ({
-  gridColumn: 'span 11 / span 11',
+  gridColumn: "span 12 / span 12",
 });
 ({
-  gridColumn: 'span 12 / span 12',
+  gridColumn: "1 / -1",
 });
 ({
-  gridColumn: '1 / -1',
+  gridColumnStart: "1",
 });
 ({
-  gridColumnStart: '1',
+  gridColumnStart: "2",
 });
 ({
-  gridColumnStart: '2',
+  gridColumnStart: "3",
 });
 ({
-  gridColumnStart: '3',
+  gridColumnStart: "4",
 });
 ({
-  gridColumnStart: '4',
+  gridColumnStart: "5",
 });
 ({
-  gridColumnStart: '5',
+  gridColumnStart: "6",
 });
 ({
-  gridColumnStart: '6',
+  gridColumnStart: "7",
 });
 ({
-  gridColumnStart: '7',
+  gridColumnStart: "8",
 });
 ({
-  gridColumnStart: '8',
+  gridColumnStart: "9",
 });
 ({
-  gridColumnStart: '9',
+  gridColumnStart: "10",
 });
 ({
-  gridColumnStart: '10',
+  gridColumnStart: "11",
 });
 ({
-  gridColumnStart: '11',
+  gridColumnStart: "12",
 });
 ({
-  gridColumnStart: '12',
+  gridColumnStart: "13",
 });
 ({
-  gridColumnStart: '13',
+  gridColumnStart: "auto",
 });
 ({
-  gridColumnStart: 'auto',
+  gridColumnEnd: "1",
 });
 ({
-  gridColumnEnd: '1',
+  gridColumnEnd: "2",
 });
 ({
-  gridColumnEnd: '2',
+  gridColumnEnd: "3",
 });
 ({
-  gridColumnEnd: '3',
+  gridColumnEnd: "4",
 });
 ({
-  gridColumnEnd: '4',
+  gridColumnEnd: "5",
 });
 ({
-  gridColumnEnd: '5',
+  gridColumnEnd: "6",
 });
 ({
-  gridColumnEnd: '6',
+  gridColumnEnd: "7",
 });
 ({
-  gridColumnEnd: '7',
+  gridColumnEnd: "8",
 });
 ({
-  gridColumnEnd: '8',
+  gridColumnEnd: "9",
 });
 ({
-  gridColumnEnd: '9',
+  gridColumnEnd: "10",
 });
 ({
-  gridColumnEnd: '10',
+  gridColumnEnd: "11",
 });
 ({
-  gridColumnEnd: '11',
+  gridColumnEnd: "12",
 });
 ({
-  gridColumnEnd: '12',
+  gridColumnEnd: "13",
 });
 ({
-  gridColumnEnd: '13',
+  gridColumnEnd: "auto",
 });
 ({
-  gridColumnEnd: 'auto',
+  gridColumn: "7",
 });
 ({
-  gridColumn: '7',
+  gridColumnEnd: "7",
 });
 ({
-  gridColumnEnd: '7',
-});
-({
-  gridColumnStart: '7',
+  gridColumnStart: "7",
 }) // tw`col-span-[span 16 / span 16]`
 
 

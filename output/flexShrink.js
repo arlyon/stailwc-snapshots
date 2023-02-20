@@ -1,45 +1,36 @@
-
-
-import tw, { theme } from './macro'
-
 // https://tailwindcss.com/docs/flex-shrink
-theme`flexShrink.`
 
 tw`shrink-0`
 tw`shrink`
-tw`flex-shrink-0` // Deprecated
-tw`flex-shrink` // Deprecated
+tw`flex-shrink-0`
+tw`flex-shrink`
 
-tw`flex-shrink-[var(--shrink)]` // Deprecated
+tw`flex-shrink-[var(--shrink)]`
 tw`shrink-[var(--shrink)]`
 
       ↓ ↓ ↓ ↓ ↓ ↓
 
 // https://tailwindcss.com/docs/flex-shrink
 ({
-  0: '0',
-  DEFAULT: '1',
+  flexShrink: "0",
 });
 ({
-  flexShrink: '0',
+  flexShrink: "1",
 });
 ({
-  flexShrink: '1',
+  flexShrink: "0",
 });
-({
-  flexShrink: '0',
-}) // Deprecated
 
 ({
-  flexShrink: '1',
-}) // Deprecated
+  flexShrink: "1",
+});
 
 ({
-  flexShrink: 'var(--shrink)',
-}) // Deprecated
+  flexShrink: "var(--shrink)",
+});
 
 ({
-  flexShrink: 'var(--shrink)',
+  flexShrink: "var(--shrink)",
 })
 
 

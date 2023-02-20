@@ -1,44 +1,35 @@
-
-
-import tw, { theme } from './macro'
-
 // https://tailwindcss.com/docs/flex-grow
-theme`flexGrow.`
 
 tw`grow-0`
 tw`grow`
-tw`flex-grow-0` // Deprecated
-tw`flex-grow` // Deprecated
+tw`flex-grow-0`
+tw`flex-grow`
 
 tw`grow-[2]`
-tw`flex-grow-[var(--grow)]` // Deprecated
+tw`flex-grow-[var(--grow)]`
 
       ↓ ↓ ↓ ↓ ↓ ↓
 
 // https://tailwindcss.com/docs/flex-grow
 ({
-  0: '0',
-  DEFAULT: '1',
+  flexGrow: "0",
 });
 ({
-  flexGrow: '0',
+  flexGrow: "1",
 });
 ({
-  flexGrow: '1',
+  flexGrow: "0",
 });
-({
-  flexGrow: '0',
-}) // Deprecated
 
 ({
-  flexGrow: '1',
-}) // Deprecated
+  flexGrow: "1",
+});
 
 ({
-  flexGrow: '2',
+  flexGrow: "2",
 });
 ({
-  flexGrow: 'var(--grow)',
-}) // Deprecated
+  flexGrow: "var(--grow)",
+});
 
 

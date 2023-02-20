@@ -1,9 +1,4 @@
-
-
-import tw, { theme } from './macro'
-
 // https://tailwindcss.com/docs/grid-auto-columns
-theme`gridAutoColumns`
 
 tw`auto-cols-auto`
 tw`auto-cols-min`
@@ -16,34 +11,28 @@ tw`lg:grid-cols-[200px,repeat(auto-fill,minmax(15%,100px)),300px]`
 
       ↓ ↓ ↓ ↓ ↓ ↓
 
-// https://tailwindcss.com/docs/grid-auto-columns
+// https://tailwindcss.com/docs/grid-auto-column"
 ({
-  auto: 'auto',
-  min: 'min-content',
-  max: 'max-content',
-  fr: 'minmax(0, 1fr)',
+  gridAutoColumns: "auto",
 });
 ({
-  gridAutoColumns: 'auto',
+  gridAutoColumns: "min-content",
 });
 ({
-  gridAutoColumns: 'min-content',
+  gridAutoColumns: "max-content",
 });
 ({
-  gridAutoColumns: 'max-content',
+  gridAutoColumns: "minmax(0, 1fr)",
 });
 ({
-  gridAutoColumns: 'minmax(0, 1fr)',
+  gridAutoColumns: "minmax(0, 2fr)",
 });
 ({
-  gridAutoColumns: 'minmax(0, 2fr)',
+  gridTemplateColumns: "200px,repeat(auto-fill,minmax(15%,100px)),300px",
 });
 ({
-  gridTemplateColumns: '200px,repeat(auto-fill,minmax(15%,100px)),300px',
-});
-({
-  '@media (min-width: 1024px)': {
-    gridTemplateColumns: '200px,repeat(auto-fill,minmax(15%,100px)),300px',
+  "@media (min-width: 1024px)": {
+    gridTemplateColumns: "200px,repeat(auto-fill,minmax(15%,100px)),300px",
   },
 })
 
